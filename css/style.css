@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+
+  .Navbar{
+    
+  }
+  .Nav-brand{
+       padding-right: 50px;
+   }
+  .Nav-items li{
+      padding-right: 50px;
+  } 
+  .bg-change {
+    transition: 500ms ease;
+    background-color: rgba(151, 145, 145, 0.904); !important;
+  }
+
+  .main{
+     background-image: url(../images/bg-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 113vh;
+  }
+
+  .main-box{
+      width: 100%;
+      height: 25%;
+  }
+  .main-box h1{
+      margin-top: 15%;
+      margin-left: 1%;
+      font-family: 'Dancing Script', cursive;
+      font-size: 8rem;
+
+  }
+  .main-box h2{
+    margin-top: 2%; 
+    font-family: 'Raleway', sans-serif;
+  }
+  .main-box a{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .button {
+    font-size: x-large;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 0;
+    background: #FFEFBA;
+    box-shadow: 1px 1px 3px 0 #000;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    margin-left: 8%;
+    margin-top: 1%;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .button:hover {
+    transform: scale(1.1);
+  }
+
+  .block{
+    margin-top: 5%;
+    float: left;
+    width: 50%;
+    
+    padding:10px;
+    box-sizing: border-box;
+  }
+  .block h3{
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+  }
+
+  .body-1{
+    margin-top: 2%;
+  }
+
+  .img-1{
+    margin-top: 12%;
+    margin-left: 25%;
+  }
+  .body-1-content{
+    font-size: xx-large;
+    margin-top: 13%;
+    font-family: 'Zilla Slab', serif;
+  }
+
+  .footer{
+    background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top: 5%;
+  }
+
+  .footer-heading h2{
+    margin-top: 1%;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 4rem;
+    text-decoration: underline;
+  }
+  
+  .img-2{
+    margin-top: 15%;
+    margin-left: 20%; 
+  }
+
+  .fa{
+    color:black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 2%;
+    margin-top: 8%;
+    text-decoration: none !important;
+    border-radius: 50%;
+  } 
+
+  .fa:hover{
+    color:rgba(160, 118, 118, 0.904)
+  }
